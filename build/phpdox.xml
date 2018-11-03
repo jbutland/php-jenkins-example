@@ -5,7 +5,7 @@
 
         <collector publiconly="false" backend="parser" />
 
-        <generator output="${basedir}/build/api/docs">
+        <generator output="${basedir}/api/docs">
 
             <enrich base="build/logs">
                 <source type="build" />
