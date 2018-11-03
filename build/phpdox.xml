@@ -7,7 +7,7 @@
 
         <generator output="${basedir}/build/api/docs">
 
-            <enrich base="logs">
+            <enrich base="build/logs">
                 <source type="build" />
                 <source type="git">
                     <history enabled="true" limit="15" />
