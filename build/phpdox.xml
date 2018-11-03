@@ -18,7 +18,7 @@
                 <source type="pmd" />
                 <source type="phploc" />
                 <source type="phpunit">
-                    <coverage path="coverage" />
+                    <coverage path="${basedir}/coverage" />
                 </source>
             </enrich>
 
